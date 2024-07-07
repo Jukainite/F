@@ -1,4 +1,4 @@
-Code repository with classical reinforcement learning and deep reinforcement learning methods using [poke_env environment](poke-env.readthedocs.io/en/latest/).
+Code repository with classical reinforcement learning and deep reinforcement learning methods using poke_env environment
 
 
 For training, it is necessary to run [Pokémon Showdown](https://play.pokemonshowdown.com) on localhost. Showdown is [open-smyce](https://github.com/smogon/pokemon-showdown.git).
