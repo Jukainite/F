@@ -229,12 +229,8 @@ I use the functions at the function do_battle_validation:
 ## Deep Reinforcement Learning models
 
 ## Saving DRL models
-
+### Saving DRL models
 The models are saved in .zip with the function `model.save()`
-
-
-
-
 
 The Saved Model format is a way to serialize models. Models saved in this format can be restored using .load_model and are compatible with stable_baselines3. 
 
@@ -247,6 +243,7 @@ model.save("model_%d" % NB_TRAINING_STEPS)
 
 ```
 
+### Loading DRL models
 
 Inspect the saved model directory and reload a fresh Keras model from the saved model:
 
