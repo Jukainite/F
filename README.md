@@ -230,13 +230,13 @@ I use the functions at the function do_battle_validation:
 
 ## Saving DRL models
 
-The models Ire saved in .pb with the function `model.save()`
+The models are saved in .zip with the function `model.save()`
 
-[Keras reference](https://www.tensorflow.org/tutorials/keras/save_and_load?hl=pt-br)
 
-## Loading DRL models
 
-The SavedModel format is a way to serialize models. Models saved in this format can be restored using .load_model and are compatible with stable_baselines3. 
+
+
+The Saved Model format is a way to serialize models. Models saved in this format can be restored using .load_model and are compatible with stable_baselines3. 
 
 ```# Create and train a new model instance.
 model = A2C("MlpPolicy", player, verbose=1)
